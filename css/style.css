@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.profile-wrapper {
+    background-image: linear-gradient(to left, rgba(71, 201, 229, 0.9), rgba(0,0,0), rgba(0,0,0));
+    color: rgb(255, 255, 255);
+}
+
+header {
+    position: fixed;
+    background-image: linear-gradient(to left, rgba(71, 201, 229, 0.5), rgba(0,0,0), rgba(0,0,0));
+    padding: 20px 0px;
+    width: 100%;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+header nav a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+}
+
+header nav a.active {
+    border-bottom: 4px solid rgba(71, 201, 229);
+}
+
+#profile {
+    text-align: center;
+    padding: 180px 0px 120px;
+}
+
+#profile h1 {
+    font-size: 68px;
+    font-weight: bold;
+}
+
+#profile h1 span {
+    color: rgba(71,201,229,0.8);
+}
+
+#profile h2 {
+    font-size: 30px;
+}
+
+#profile .social {
+    margin-top: 50px;
+}
+
+#profile .social a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 50%; 
+    background-color: rgba(71,201,229,0.8);
+    font-size: 24px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-right: 5px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#profile .social a:hover {
+    background-color: rgba(0, 0, 0);
+}
+
+#skills {
+    background-color: rgb(245, 245, 245);
+}
+
+table {
+    font-size: 20px;
+}
+
+table.t-skills {
+    display: inline;
+    padding: 30px;
+}
+
+table.t-skills thead:first-child th {
+    border-bottom: 2px solid rgba(71,201,229,0.8);
+} 
+
+table.t-skills th {
+    text-align: center;
+}
+
+table.t-skills td {
+    padding: 10px;
+    text-align: right;
+}
+
+.icons span {
+    display: inline-block;
+    border-radius: 50%; 
+    background-color: rgba(71,201,229,0.8);
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+}
+
+.t-education td {
+    text-align: center;
+}
+
+table.t-education tr:nth-child(even) td {
+    border-top: 3px solid rgba(71,201,229,0.8);
+    border-bottom: 3px solid rgba(71,201,229,0.8);
+} 
+
+#portfolio {
+    background-color: rgb(245, 245, 245);
+}
+
+#portfolio .box {
+    display: inline-block;
+    text-align: center;
+    width: 31%;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+#portfolio .box img {
+    width:  100%;
+    height: 250px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .data span {
+    color: rgba(71, 201, 229, 0.8);
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(71, 201, 229, 0.8);
+    padding: 10px;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    width: 0.9rem;
+	height: 0.9rem;
+    border-radius: 50%;
+    background-color: rgba(71,201,229,0.8);
+    display: inline-block;
+}
+
+.circle-empty {
+    width: 0.8rem;
+	height: 0.8rem;
+    border-radius: 50%;
+    border: 0.5px solid rgba(71,201,229,0.8);
+    display: inline-block;
+}
